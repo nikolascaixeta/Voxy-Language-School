@@ -47,7 +47,6 @@ index:
             </div>
         </div>
     </footer>
-.
 
 css:
 *{
@@ -131,5 +130,3 @@ footer{
     margin-left: 4.25rem;
     color: rgba(0, 0, 0, 0.4);
 }
-    </footer>
-        
