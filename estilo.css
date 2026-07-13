@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.DM{
+  font-family: "DM sans";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .header{
 background-color: #f7f5f2;
 }
@@ -12,18 +19,18 @@ background-color: #f7f5f2;
     align-items: center;
     
     margin-bottom: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 .imgHeader{
-    width: 320px;
+    width: 20rem;
     height: auto;
 }
 .ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2rem;
 }
 .a{
     text-decoration: none;
@@ -34,7 +41,10 @@ background-color: #f7f5f2;
 }
 .botao{
     background-color: #000000;
-    padding: 14px 40px;
+      
+    letter-spacing: .18em;
+    
+    padding: .80rem 1.5rem;
     border-radius: 999px;
     text-decoration: none;
     
