@@ -50,10 +50,10 @@
             <div id="prematricula1" class="prematricula">
                 <div class="parte1">
                     <p class="mini">PRÉ-MATRÍCULA</p>
-                    <h2 class="titulo CG">Comece pela <span class="CG italico"> conversa</span>.</h2>
-                    <p class="CG texto">Antes da matrícula, conversamos sobre seus objetivos e encontramos a turma ideal
+                    <h2 class="titulo CG">Comece pela <br>conversa.</h2>
+                    <p class="CG texto">Antes da matrícula, conversamos sobre seus<br>objetivos e  encontramos a turma ideal
                         para
-                        você.</p>
+                        você.</p><br>
                     <img class="fundadora" src="Img/fundadora.jpeg" alt="Fundadora da Voxy">
                     <p class="CG" id="dianna">Dianna, Fundadora da Voxy</p>
                 </div>
@@ -62,7 +62,7 @@
 
                         <div class="nome DM">
                             <label class="mini" for="nome">Nome completo:</label><br>
-                            <input type="text" id="nome" required><br><br>
+                            <input type="text" id="nome" class="objesp"><br><br>
                         </div>
                         <div class="row DM">
                             <div class="espaco_form">
@@ -131,18 +131,20 @@
                         </div>
                         <div class="especifico">
                             <label class="mini" for="mensagem">Objetivo Específico:</label><br>
-                            <input type="text" id="mensagem"
+                            <input type="text" id="mensagem" class="objesp"
                                 placeholder="Ex: Quero me preparar para uma entrevista de emprego" required><br><br>
                         </div>
                         <div class="duvidas">
                             <label class="mini" for="duvidas">Dúvidas:</label><br>
-                            <textarea cols="50" rows="4" id="duvidas" placeholder="Digite suas dúvidas aqui..."
+                            <textarea class="objesp" cols="50" rows="4" id="duvidas" 
                                 required></textarea><br><br>
                             <div class="botão">
                                 <button type="submit" class="botao">
                                     <p class="branco" class="DM">AGENDAR REUNIÃO DE ACOLHIMENTO</p>
                                 </button>
+                                <div class="aviso">
                                 <p class="DM mini detalhe">Sem compromisso. A reunião de acolhimento é gratuita.</p>
+                                </div>
                             </div>
                         </div>
                     </form>
