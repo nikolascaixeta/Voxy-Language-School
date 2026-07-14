@@ -109,12 +109,34 @@ z-index: 1000;
      transform: scale(1.1);
     
 }
+.preto{
+    color: #000;
+}
+.botao2{
+    
+    background-color: #ffffff;
+    letter-spacing: .18rem;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: .80rem 1.5rem;
+    border-radius: 62.4375rem;
+     text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    max-width: 15rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+.botao2:hover{
+     background-color: #c3c7ed;
+     transform: scale(1.1);
+}
 .branco{
     color: #fff;
     
 }
 main{
-    margin-top: 5.5rem;
+   
     margin-bottom: 5rem;
 }
 .mini{
@@ -353,7 +375,26 @@ textarea{
 #ouvido{
     font-style: italic;
 }
+.inicio{
+   padding-top: 200px;
+    margin-left: 7rem;
+    
 
-
+}
+.fundoInicio{
+background: url(Img/voxy-hero-editorial-DMAYN5-C.jpg);
+     background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+}
+.tituloReal{
+    padding: 1rem;
+   font-size: 9rem;
+}
+.texto2{
+    padding: 1rem;
+}
 
 
