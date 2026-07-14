@@ -4,7 +4,7 @@
      box-sizing: border-box;
 }
 .DM{
-  font-family: "DM sans";
+  font-family: "DM sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -70,6 +70,7 @@ z-index: 1000;
     text-decoration: none;
    color: #000;
 
+
 }
 .a:hover{
     color: #c3c7ed;
@@ -88,6 +89,7 @@ z-index: 1000;
     padding: .80rem 1.5rem;
     border-radius: 999px;
     text-decoration: none;
+    cursor: pointer;
     
 }
 .botao:hover{
@@ -95,7 +97,7 @@ z-index: 1000;
      transform: scale(1.1);
     
 }
-#branco{
+.branco{
     color: #fff;
     
 }
@@ -145,7 +147,7 @@ footer{
 
 .bordasfoot{
     height: 0.0625rem;
-    background-color: #cacaca;
+    background-color: #000000;
 }
 
 .colum{
