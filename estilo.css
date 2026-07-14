@@ -44,16 +44,16 @@ z-index: 1000;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; 
   display: inline-flex;
   align-items: baseline;
-  gap: 8px; 
+  gap: 0.5rem; 
 }
 
 .brand-name {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500; 
   color: #1a1a1a;   
 }
 .sub-title {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 300;      
   letter-spacing: 0.15em; 
   text-transform: uppercase; 
@@ -99,10 +99,10 @@ z-index: 1000;
 }
 .botao{
     background-color: #000000;
-    letter-spacing: .18em;
+    letter-spacing: .18rem;
     transition: background-color 0.3s, transform 0.3s;
     padding: .80rem 1.5rem;
-    border-radius: 999px;
+    border-radius: 62.4375rem;
     text-decoration: none;
     cursor: pointer;
     
@@ -121,7 +121,7 @@ main{
     margin-bottom: 5rem;
 }
 .mini{
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 300;      
   letter-spacing: 0.15em; 
   text-transform: uppercase; 
@@ -231,31 +231,31 @@ footer{
 }
 input, select{
     width: 100%;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     border: none;
-    border-bottom: 1px solid #cacaca;
+    border-bottom: 0.0625rem solid #cacaca;
     background-color: transparent;
     width: 16rem;
 }
 input:focus, select:focus {
-    border-bottom: 2px solid #333;
+    border-bottom: 0.125rem solid #333;
 }
 label{
     display: block;
-    font-size: 11px;
+    font-size: 0.6875rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 .row{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
 }
 textarea{
   
     border: none;
-    border-bottom: 1px solid #cacaca;
+    border-bottom: 0.0625rem solid #cacaca;
     background-color: transparent;
     outline: none;
 }
@@ -287,6 +287,68 @@ textarea{
 }
 .aviso{
     padding-top: 0.5rem;
+}
+
+.backqsomos{
+    background-color: #f7f5f2;
+    border-bottom: #f7f5f2 7.5rem solid;
+    border-top: #f7f5f2 5rem solid;
+}
+.qsomos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 0.005rem;
+    gap: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f7f5f2;
+}
+
+.imgqsomos{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    margin-left: 3rem;
+    overflow: hidden;
+}
+
+#ftqsomos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.txtqsomos{
+    display: flex;
+    flex-direction: column;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ptxt{
+    font-size: 1.40rem;
+    color: #1f1e1c;
+}
+
+.txtqsomos h1{
+    display: flex;
+    flex-wrap: wrap;
+   
+    font-size: 4rem;
+}
+
+#ouvido{
+    font-style: italic;
 }
 
 
