@@ -9,6 +9,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="Img/favicom.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
     <title>Voxy Language School</title>
@@ -33,7 +37,7 @@
                 </ul>
             </nav>
 
-            <a class="a botao" href="#prematricula1">
+            <a class="a botao" href="#formularioEtexto">
                 <p class="branco DM">QUERO COMEÇAR</p>
             </a>
 
@@ -42,103 +46,107 @@
         </div>
     </header>
     <main>
-        <div id="prematricula1" class="prematricula">
-            <div class="parte1">
-                <p class="mini">PRÉ-MATRÍCULA</p>
-                <h2>Comece pela conversa.</h2>
-                <p>Antes da matrícula, conversamos sobre seus objetivos e encontramos a turma ideal para você.</p>
-                <img class="fundadora" src="Img/fundadora.jpeg" alt="Fundadora da Voxy">
-                <p class="mini">Dianna, Fundadora da Voxy</p>
-            </div>
-            <div class="form1">
-                <form>
+        <div id="formularioEtexto">
+            <div id="prematricula1" class="prematricula">
+                <div class="parte1">
+                    <p class="mini">PRÉ-MATRÍCULA</p>
+                    <h2 class="titulo CG">Comece pela <span class="CG italico"> conversa</span>.</h2>
+                    <p class="CG texto">Antes da matrícula, conversamos sobre seus objetivos e encontramos a turma ideal
+                        para
+                        você.</p>
+                    <img class="fundadora" src="Img/fundadora.jpeg" alt="Fundadora da Voxy">
+                    <p class="CG" id="dianna">Dianna, Fundadora da Voxy</p>
+                </div>
+                <div class="form1">
+                    <form>
 
-                    <div class="nome DM">
-                        <label class="mini" for="nome">Nome completo:</label><br>
-                        <input type="text" id="nome" required><br><br>
-                    </div>
-                    <div class="row DM">
-                    <div class="espaco_form">
-                        <div class="numero">
-                            <label class="mini" for="numero">Número de telefone:</label><br>
-                            <input type="tel" id="numero" placeholder="(00) 00000-0000" required><br><br>
+                        <div class="nome DM">
+                            <label class="mini" for="nome">Nome completo:</label><br>
+                            <input type="text" id="nome" required><br><br>
                         </div>
-                        <div class="modalidade">
-                            <label class="mini" for="modalidade">Modalidade de interesse:</label><br>
-                            <select id="modalidade" required>
-                                <option value="">Selecione</option>
-                                <option value="vip">Voxy VIP - Aulas Individuais</option>
-                                <option value="Connect">Voxy Connect - Aulas em Grupo</option>
-                            </select><br><br>
-                        </div>
-                        <div class="objetivo">
-                            <label class="mini" for="objetivo">Objetivo Principal</label><br>
-                            <select id="objetivo" required>
-                                <option value="">Selecione</option>
-                                <option value="conversacao">Conversação</option>
-                                <option value="viagem">Viagem</option>
-                                <option value="trabalhar">Trabalho</option>
-                                <option value="estudos">Estudos</option>
-                                <option value="intercambio">Intercâmbio</option>
-                                <option value="desenvolver">Desenvolvimento Pessoal</option>
-                            </select><br><br>
-                        </div>
-                          <div class="tempo">
-                            <label class="mini" for="iniciar">Quando pretende Iniciar:</label><br>
-                            <select id="iniciar" required>
-                                <option value="">Selecione</option>
-                                <option value="imediato">Imediatamente</option>
-                                <option value="1mes">Próximo mês</option>
-                                <option value="2-3meses">Em 2-3 meses</option>
-                                <option value="procurando">Ainda estou pesquisando</option>
-                            </select><br><br>
-                            </div>
-                        
-                    </div>
-                    <div class="espaco_form">
-                        <div class="email">
-                            <label class="mini" for="email">E-mail:</label><br>
-                            <input type="email" id="email" required><br><br>
-                        </div>
-                        <div class="nivel">
-                            <label class="mini" for="nivel">Nível Atual:</label><br>
-                            <select id="nivel" required>
-                                <option value="">Selecione</option>
-                                <option value="iniciante">Iniciante</option>
-                                <option value="basico">Básico</option>
-                                <option value="preintermediario">Pré-Intermediário</option>
-                                <option value="intermediario">Intermediário</option>
-                                <option value="avancado">Avançado</option>
-                                <option value="Nãosei">Não sei dizer</option>
-                            </select><br><br>
-                        </div>
-
-                        <div class="tempo">
-                            <label class="mini" for="disponibilidade">Disponibilidade:</label><br>
-                            <input type="text" id="disponibilidade" placeholder="Ex: Segunda e quarta a noite"
-                                required><br><br>
+                        <div class="row DM">
+                            <div class="espaco_form">
+                                <div class="numero">
+                                    <label class="mini" for="numero">Número de telefone:</label><br>
+                                    <input type="tel" id="numero" placeholder="(00) 00000-0000" required><br><br>
                                 </div>
-                              
-                        
-                    </div>
-                    </div>
-                    <div class="especifico">
-                        <label class="mini" for="mensagem">Objetivo Específico:</label><br>
-                        <input type="text" id="mensagem"
-                            placeholder="Ex: Quero me preparar para uma entrevista de emprego" required><br><br>
-                    </div>
-                    <div class="duvidas">
-                        <label class="mini" for="duvidas">Dúvidas:</label><br>
-                        <textarea cols="50" rows="4" id="duvidas" placeholder="Digite suas dúvidas aqui..."
-                            required></textarea><br><br>
-                        <div class="botão">
-                            <button type="submit" class="botao">
-                                <p class="branco" class="DM">AGENDAR REUNIÃO DE ACOLHIMENTO</p>
-                            </button>
-                            <p>Sem compromisso. A reunião de acolhimento é gratuita.</p>
+                                <div class="modalidade">
+                                    <label class="mini" for="modalidade">Modalidade de interesse:</label><br>
+                                    <select id="modalidade" required>
+                                        <option value="">Selecione</option>
+                                        <option value="vip">Voxy VIP - Aulas Individuais</option>
+                                        <option value="Connect">Voxy Connect - Aulas em Grupo</option>
+                                    </select><br><br>
+                                </div>
+                                <div class="objetivo">
+                                    <label class="mini" for="objetivo">Objetivo Principal</label><br>
+                                    <select id="objetivo" required>
+                                        <option value="">Selecione</option>
+                                        <option value="conversacao">Conversação</option>
+                                        <option value="viagem">Viagem</option>
+                                        <option value="trabalhar">Trabalho</option>
+                                        <option value="estudos">Estudos</option>
+                                        <option value="intercambio">Intercâmbio</option>
+                                        <option value="desenvolver">Desenvolvimento Pessoal</option>
+                                    </select><br><br>
+                                </div>
+                                <div class="tempo">
+                                    <label class="mini" for="iniciar">Quando pretende Iniciar:</label><br>
+                                    <select id="iniciar" required>
+                                        <option value="">Selecione</option>
+                                        <option value="imediato">Imediatamente</option>
+                                        <option value="1mes">Próximo mês</option>
+                                        <option value="2-3meses">Em 2-3 meses</option>
+                                        <option value="procurando">Ainda estou pesquisando</option>
+                                    </select><br><br>
+                                </div>
+
+                            </div>
+                            <div class="espaco_form">
+                                <div class="email">
+                                    <label class="mini" for="email">E-mail:</label><br>
+                                    <input type="email" id="email" required><br><br>
+                                </div>
+                                <div class="nivel">
+                                    <label class="mini" for="nivel">Nível Atual:</label><br>
+                                    <select id="nivel" required>
+                                        <option value="">Selecione</option>
+                                        <option value="iniciante">Iniciante</option>
+                                        <option value="basico">Básico</option>
+                                        <option value="preintermediario">Pré-Intermediário</option>
+                                        <option value="intermediario">Intermediário</option>
+                                        <option value="avancado">Avançado</option>
+                                        <option value="Nãosei">Não sei dizer</option>
+                                    </select><br><br>
+                                </div>
+
+                                <div class="tempo">
+                                    <label class="mini" for="disponibilidade">Disponibilidade:</label><br>
+                                    <input type="text" id="disponibilidade" placeholder="Ex: Segunda e quarta a noite"
+                                        required><br><br>
+                                </div>
+
+
+                            </div>
                         </div>
-                    </div>
-                </form>
+                        <div class="especifico">
+                            <label class="mini" for="mensagem">Objetivo Específico:</label><br>
+                            <input type="text" id="mensagem"
+                                placeholder="Ex: Quero me preparar para uma entrevista de emprego" required><br><br>
+                        </div>
+                        <div class="duvidas">
+                            <label class="mini" for="duvidas">Dúvidas:</label><br>
+                            <textarea cols="50" rows="4" id="duvidas" placeholder="Digite suas dúvidas aqui..."
+                                required></textarea><br><br>
+                            <div class="botão">
+                                <button type="submit" class="botao">
+                                    <p class="branco" class="DM">AGENDAR REUNIÃO DE ACOLHIMENTO</p>
+                                </button>
+                                <p class="DM mini detalhe">Sem compromisso. A reunião de acolhimento é gratuita.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </main>

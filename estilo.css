@@ -3,6 +3,12 @@
     padding: 0;
      box-sizing: border-box;
 }
+body{
+font-family: "DM sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
 .DM{
   font-family: "DM sans", sans-serif;
   font-optical-sizing: auto;
@@ -10,11 +16,20 @@
   font-style: normal;
 }
 .CG{
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Cormorant Garamond", Georgia, serif; 
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 600;
   font-style: normal;
   
+}
+.C{
+    font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.italico{
+    font-style: italic;
 }
 
 .header{
@@ -102,14 +117,15 @@ z-index: 1000;
     
 }
 main{
-    margin-top: 20rem;
-    margin-bottom: 20rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
 }
 .mini{
   font-size: 11px;
   font-weight: 300;      
   letter-spacing: 0.15em; 
   text-transform: uppercase; 
+  font-weight: bold;
   color: #707070;         
 }
 .pmatricula{
@@ -121,8 +137,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
+    margin-left: rem;
+    margin-right: rem;
 }
 form{
     display: flex;
@@ -132,8 +148,8 @@ form{
     margin-right: 12rem;
 }
 .fundadora{
-    height: 25rem;
-    width: 19rem;  
+    height: 28rem;
+    width: 22rem;  
 }
 
 footer{
@@ -225,8 +241,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    
 }
 input, select{
     width: 100%;
@@ -257,4 +272,26 @@ textarea{
     border-bottom: 1px solid #cacaca;
     background-color: transparent;
     outline: none;
+}
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+   
+   font-size: 5rem;
+}
+.texto{
+    font-size: 1.40rem;
+    color: #1f1e1c;
+}
+#dianna{
+    color: #707070;
+}
+#formularioEtexto{
+    margin-left: 14rem;
+    margin-right: 10rem;
+}
+.detalhe{
+    text-align: justify;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
 }
