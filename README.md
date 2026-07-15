@@ -10,5 +10,7 @@ Relatório diário:
 
 13/07/2026: Desenvolvimento da parte inicial do site (header e footer) e da base dos formulários
 
+14/07/2026: Desenvolvimento de 3 áreas do site
+
 
 
