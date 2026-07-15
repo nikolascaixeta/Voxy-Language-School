@@ -10,7 +10,8 @@ Relatório diário:
 
 13/07/2026: Desenvolvimento da parte inicial do site (header e footer) e da base dos formulários
 
-14/07/2026: Desenvolvimento de 3 áreas do site
+14/07/2026: Desenvolvimento de 3 áreas do site(Introdução, Sobre e a finalização dso formulários)
 
+15/07/2026: Desenvolvimento de outras 3 áreas do site(Diferenciais, Metodologia e Turmas)
 
 
