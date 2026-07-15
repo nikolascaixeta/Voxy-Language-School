@@ -459,3 +459,65 @@ background: url(Img/voxy-hero-editorial-DMAYN5-C.jpg);
   margin: 0;
   line-height: 1.5;
 }
+.turmas{
+    margin-top: 5rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+.txtturmas{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 5rem;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.0625rem solid #cacaca;
+}
+.ulhorarios{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 26.7rem;    
+}
+.acima{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.horas{
+    font-size: 2.8rem;
+}
+
+.lvl{
+    font-size: 2rem;
+    font-weight: 250;
+    font-style: normal;  
+}
+.limini{
+    font-size: 0.72rem;
+    font-weight: 350;
+    letter-spacing: 0.28em;
+    font-style: normal;
+    color: #000;
+}
+.vagas{
+    font-size: 0.72rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #707070;
+}
+.nvt{
+    font-size: 0.72rem;
+    font-weight: 500;
+    font-style: normal;
+    border:#707070 0.0625rem solid;
+    border-radius: 62.4375rem;
+    padding: 0.2rem 0.2rem;
+
+}
