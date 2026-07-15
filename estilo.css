@@ -521,3 +521,50 @@ background: url(Img/voxy-hero-editorial-DMAYN5-C.jpg);
     padding: 0.2rem 0.2rem;
 }
 
+.texto2{
+    padding: 1rem;
+}
+.apresenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-right: 8rem;
+
+}
+.aprende{
+    letter-spacing: 0.25rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #8c8a86;
+    margin-bottom: 1rem;
+}
+.h21{
+   font-size: 5rem;
+  line-height: 0.9;
+ margin-bottom:3rem ;
+}
+.diario{
+    height: 40rem;
+    width: 30rem;
+}
+.tituloLista{
+    font-size: 2.5rem;
+    letter-spacing: -0.8;
+    padding-bottom: 1rem;
+}
+.gap{
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    list-style-type: decimal-leading-zero;
+    border-bottom: #707070 2px solid;
+    
+}
+li::marker {
+  font-size: 2rem; 
+  
+}
+.txt1{
+      color: #707070;    
+}
