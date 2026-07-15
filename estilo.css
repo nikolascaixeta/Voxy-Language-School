@@ -145,7 +145,7 @@ main{
   letter-spacing: 0.15em; 
   text-transform: uppercase; 
   font-weight: bold;
-  color: #707070;         
+  color: #8c8a86;         
 }
 form{
     display: flex;
@@ -376,7 +376,7 @@ textarea{
     font-style: italic;
 }
 .inicio{
-   padding-top: 200px;
+   padding-top: 12.5rem;
     margin-left: 7rem;
     
 
@@ -387,7 +387,7 @@ background: url(Img/voxy-hero-editorial-DMAYN5-C.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  min-height: 800px;
+  min-height: 50rem;
 }
 .tituloReal{
     padding: 1rem;
@@ -397,4 +397,65 @@ background: url(Img/voxy-hero-editorial-DMAYN5-C.jpg);
     padding: 1rem;
 }
 
+.backdiferenciais{
+    background-color: #f1ece4;
+    border-bottom: #f1ece4 5rem solid;
+    border-top: #f1ece4 5rem solid;
+}
 
+.diferenciais-section {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 5rem 1.25rem;
+  font-family: sans-serif;
+}
+
+.topodiferenciais {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  gap: 2.5rem;
+}
+.esquerdadiff {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.subtitulodiff, .blocknumber {
+  font-size: 0.75rem;
+  color: #8c8c8c;
+  letter-spacing: 0.09375rem;
+}
+.titulodiff {
+  font-size: 3rem;
+  margin: 0;
+  max-width: 28.125rem;
+}
+.direitadiff {
+  max-width: 25rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 3.75rem 2.5rem; 
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding-top: 2rem;
+  border-top: 0.0625rem solid #979797;
+}
+.block h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+.block p {
+  font-size: 0.95rem;
+  color: #8c8a86;
+  margin: 0;
+  line-height: 1.5;
+}
