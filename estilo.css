@@ -586,3 +586,77 @@ li::marker {
     
     line-height: 0.9;
 }
+
+.depoiment{
+    margin: 0;
+    max-width: 75rem;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.gradedois{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 3.75rem 2.5rem; 
+}
+
+.blockdois {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding-top: 2rem;
+  border-top: 0.0625rem solid #979797;
+}
+
+.depoiments-section {
+  font-family: sans-serif;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.topdepoiment{
+    margin-bottom: 5rem;
+}
+
+.topdepoiment, .titulodepo{
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-top: 1rem;
+}
+
+.blockdois{
+  width: 35rem;
+  height: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.txtdepo{
+  font-size: 1.8rem;
+  line-height: 1.3;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.aluno{
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-top: 0.625rem;
+}
+
+.integrante{
+  font-size: 0.85rem;
+  color: #8c8c8c;
+}
+
+.backdepoiments{
+    background-color: #eedbee;
+    border-bottom: #eedbee 5rem solid;
+    border-top: #eedbee 5rem solid;
+}
