@@ -382,7 +382,7 @@ textarea{
 
 }
 .fundoInicio{
-background: url(Img/principal.jpeg);
+background: url(Img/WhatsApp\ Image\ 2026-07-11\ at\ 15.28.02.jpeg);
      background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -439,7 +439,7 @@ background: url(Img/principal.jpeg);
 
 .grade {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
   gap: 3.75rem 2.5rem; 
 }
 .block {
