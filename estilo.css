@@ -382,7 +382,7 @@ textarea{
 
 }
 .fundoInicio{
-background: url(Img/voxy-hero-editorial-DMAYN5-C.jpg);
+background: url(Img/principal.jpeg);
      background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -554,11 +554,18 @@ background: url(Img/voxy-hero-editorial-DMAYN5-C.jpg);
     letter-spacing: -0.8;
     padding-bottom: 1rem;
 }
+.grande{
+    size: 4rem;
+}
+.ol{
+    margin-left: 12rem;
+
+}
 .gap{
     padding-bottom: 2.5rem;
     padding-top: 2.5rem;
-    list-style-type: decimal-leading-zero;
     border-bottom: #707070 2px solid;
+    list-style: none;
     
 }
 li::marker {
@@ -569,7 +576,7 @@ li::marker {
       color: #707070;    
 }
 .transicao{
-    background:url(Img/transicao.jpg);
+    background:url(Img/1.png);
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -584,9 +591,9 @@ li::marker {
     font-size: 5rem;
     color: black;
     
-    line-height: 0.9;
+    line-height: 1.2;
 }
-}
+
 
 .depoiment{
     margin: 0;
