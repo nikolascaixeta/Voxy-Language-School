@@ -102,7 +102,6 @@ z-index: 1000;
     border-radius: 62.4375rem;
     text-decoration: none;
     cursor: pointer;
-    
 }
 .botao:hover{
     background-color: #c3c7ed;
@@ -196,6 +195,8 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 10rem;
+    height: auto;
 }
 
 #segunda a{
@@ -442,6 +443,7 @@ background: url(Img/WhatsApp\ Image\ 2026-07-11\ at\ 15.28.02.jpeg);
   grid-template-columns: repeat(3, 1fr); 
   gap: 3.75rem 2.5rem; 
 }
+
 .block {
   display: flex;
   flex-direction: column;
@@ -674,4 +676,111 @@ li::marker {
 }
 .listan{
     font-size: 4rem;
+}
+
+.backpreco{
+    background-color: rgba(207, 206, 206, 0.788);
+    border-bottom: rgb(239, 227, 241) 5rem solid;
+    border-top: rgb(239, 227, 241) 5rem solid;
+}
+
+.preco-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.planos{
+    max-width: 23.75rem;
+    height: auto;
+    border-radius: 1.25rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.planos h3{
+    font-size: 1.75rem;
+    margin-top: 1rem;
+}
+
+#primeiroplano{
+    text-align: center;
+    text-justify: distribute;
+    background-color: rgb(239, 227, 241);
+    border: 0.0625rem solid #5e5b5b;
+}
+
+#segundoplano{
+    text-align: center;
+    text-justify: distribute;
+    background-color: rgb(239, 227, 241);
+    border: 0.0625rem solid #5e5b5b;
+}
+
+#segundoplano, #txtplano{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.checklist{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    margin-left: 1.875rem;
+}
+
+.check{
+    color: green;
+    font-size: 1.5rem;
+}
+
+.assinatura{
+    box-shadow: 0rem 0.5rem 0.75rem rgba(0, 0, 0, 0.801);
+    background-color: #a09dd5;
+    letter-spacing: .18rem;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: .80rem 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 62.4375rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ass{
+    margin-top: 0.9375rem;
+}
+
+
+.assinatura:hover{
+    background-color: #c3c7ed;
+    transform: scale(1.1);
+}
+
+.assinatura h2{
+    color: white;
+}
+
+.vazia{
+    border-bottom: 0.0625rem solid black;
+}
+
+.checklistdois{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+    margin-left: 1.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.centrolist{
+    display: flex;
+    justify-content: center;
+}
+
+#espaco{
+    margin-top: 0.375rem;
 }
