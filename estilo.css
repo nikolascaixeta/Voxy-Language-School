@@ -531,6 +531,7 @@ background: url(Img/WhatsApp\ Image\ 2026-07-11\ at\ 15.28.02.jpeg);
     margin-top: 4rem;
     margin-bottom: 6rem;
     margin-right: 8rem;
+    margin-left: 8rem;
 
 }
 .aprende{
@@ -556,6 +557,9 @@ background: url(Img/WhatsApp\ Image\ 2026-07-11\ at\ 15.28.02.jpeg);
 }
 .grande{
     size: 4rem;
+}
+.pt1{
+    margin-right: 12rem;
 }
 .ol{
     margin-left: 12rem;
@@ -667,4 +671,7 @@ li::marker {
     background-color: #eedbee;
     border-bottom: #eedbee 5rem solid;
     border-top: #eedbee 5rem solid;
+}
+.listan{
+    font-size: 4rem;
 }
