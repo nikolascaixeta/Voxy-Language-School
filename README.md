@@ -14,4 +14,6 @@ Relatório diário:
 
 15/07/2026: Desenvolvimento de outras 3 áreas do site(Diferenciais, Metodologia e Turmas)
 
+16/07/2026: Reuniâo com a empresa para definir pontos a serem alterados e melhorados
+
 
