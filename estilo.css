@@ -68,6 +68,10 @@ z-index: 1000;
     margin-bottom: 1.5rem;
     
 }
+#logoheader{
+    width: auto;
+    height: 5rem;
+}
 .imgHeader{
     width: 20rem;
     height: auto;
@@ -817,4 +821,75 @@ summary{
 
 #espaco{
     margin-top: 0.375rem;
+}
+#imglogo{
+    width: 40rem;
+    height: auto;
+    border-radius: 90rem;
+}
+.txtAbout{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin-top: 1.5rem;
+}
+.ulAbout{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;   
+   justify-content: center;
+}
+.sobreVoxy{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 8.25rem;
+    margin-right: 8.25rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.pAbout{
+    font-size: 1.75rem;
+    
+}
+.check{
+    color:#a09dd5;
+
+    font-size: 1.5rem;
+}
+.alem{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 8.25rem;
+    margin-right: 8.25rem;
+}
+.alem0{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    
+}
+.tituloAlem{
+    font-size: 4rem;
+    line-height: 1.25;
+}
+#imgalem{
+    width: 40rem;
+    height: 40rem;
+}
+.ulAlem{
+    list-style: none;
+    
+}
+.liAlem{
+    margin-top: 1.75rem;
+}
+.alempt2{
+    display: flex;
+    align-items: center;
+}
+.pAlem{
+    font-size: 1.75rem;
 }
