@@ -27,6 +27,8 @@
   --blocknumbergrid: #000000;
   --depoimentos: #1a1a1a;
   --asks: #080808;
+  --pretoebranco: #000;
+  --textoform: #1f1e1c;
 }
 
 body.dark-mode {
@@ -58,6 +60,8 @@ body.dark-mode {
   --blocknumbergrid: #ffffff;
   --depoimentos: #ffffff;
   --asks: #f0f0f0;
+  --pretoebranco: #fff;
+  --textoform: #ffffffb7;
 }
 
 #dark{
@@ -246,7 +250,6 @@ img {
 }
 
 main {
-    margin-bottom: 5rem;
     width: 100%;
 }
 
@@ -277,7 +280,12 @@ main {
     
 }
 
+.selecionar{
+    color: var(--pretoebranco);
+}
+
 .parte1 .titulo {
+    color: var(--pretoebranco);
     font-size: 3.2rem;
     line-height: 1.15;
     margin-bottom: 1.5rem;
@@ -401,18 +409,27 @@ footer {
     justify-content: center;
     margin-top: 1.5rem;
     width: 100%;
-}
+} 
 
-input, select {
+input, select, textarea {
+    color: var(--pretoebranco);
+    caret-color: var(--pretoebranco);
     width: 100%;
-    padding: 0.625rem 0;
+    padding: 0.625rem 0.5rem;
     border: none;
     border-bottom: 0.0625rem solid #cacaca;
     background-color: transparent;
 }
 
-input:focus, select:focus {
-    border-bottom: 0.125rem solid #333;
+select option{
+    background-color: #c3c7ed ;
+    color: #000000;
+    padding: 0.25rem 0.5rem;
+}
+
+
+input:focus, select:focus, textarea:focus{
+    border-bottom: 0.125rem solid var(--pretoebranco);
 }
 
 label {
@@ -439,7 +456,7 @@ textarea {
 
 .texto {
     font-size: 1.25rem;
-    color: #1f1e1c;
+    color: var(--textoform);
 }
 
 #dianna {
@@ -475,6 +492,21 @@ textarea {
     padding: 5rem 1.5rem;
 }
 
+.backsobrevoxy{
+    background-color: var(--backsobre);
+    padding: 5rem 1.5rem;
+}
+
+.backlearnvoxy{
+    background-color: var(--backsobre);
+    padding: 5rem 1.5rem;
+}
+
+.backalem{
+    background-color: var(--backsobre);
+    padding: 5rem 1.5rem;
+}
+
 .backdiferenciais {
     background-color: var(--backdiferente);
     padding: 5rem 1.5rem;
@@ -487,6 +519,11 @@ textarea {
 
 .backpreco {
     background-color: var(--backassinar);
+    padding: 5rem 1.5rem;
+}
+
+.backform{
+    background-color: var(--backsobre);
     padding: 5rem 1.5rem;
 }
 
@@ -541,6 +578,7 @@ textarea {
 }
 
 .txtqsomos h1 {
+    color: var(--pretoebranco);
     font-size: 3.5rem;
     line-height: 1.15;
     margin-bottom: 1.5rem;
@@ -713,6 +751,7 @@ textarea {
 }
 
 .tituloLista {
+    color: var(--pretoebranco);
     font-size: 2.5rem;
     letter-spacing: -0.8;
     padding-bottom: 1rem;
@@ -1036,8 +1075,13 @@ summary {
 }
 
 .tituloAlem {
+    color: var(--pretoebranco);
     font-size: 3.5rem;
     line-height: 1.25;
+}
+
+.listalem{
+    color: var(--pretoebranco);
 }
 
 #imgalem {
