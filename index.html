@@ -15,6 +15,7 @@
         rel="stylesheet">
     <link rel="icon" href="Img/favicom.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
     <title>Voxy Language School</title>
 </head>
 
@@ -46,11 +47,14 @@
         </div>
     </header>
     <main>
+
+        <button id="dark" aria-label="Alternar Modo Escuro">&#127769</button>
+            
         <div class="fundoInicio">
             <div class="inicio">
                 <p class="mini">LAST FEW SPOTS</p>
                 <h1 class="tituloReal C">Inglês e espanhol para a <span class="italico">vida <br> real.</span></h1>
-                <p class="texto C texto2">O mundo muda quando você consegue falar com ele.</p>
+                <p id="txtinicial" class="texto C texto2">O mundo muda quando você consegue falar com ele.</p>
                 <a class="a botao2" href="#formularioEtexto">
                     <p class="preto DM">I WANT TO START</p>
                 </a>
@@ -209,6 +213,7 @@
                 <img class="diario" src="Img/cafe.jpeg"
                     alt="Uma mulher escrevendo em seu diário com uma xícara de café do lado">
             </div>
+            
             <div class="pt2">
                 <ol class="borda">
                     <li class="gap">
@@ -331,7 +336,8 @@
 
                 </div>
             </section>
-        </div> <br>
+        </div> 
+
         <div class="backpreco">
             <section class="preco-section">
 
@@ -523,7 +529,7 @@
                             <label class="mini" for="duvidas">Dúvidas:</label><br>
                             <textarea class="objesp" cols="50" rows="4" id="duvidas" required></textarea><br><br>
                             <div class="botão">
-                                <button type="submit" class="botao">
+                                <button id="lastbot" type="submit" class="botao">
                                     <p class="branco" class="DM">QUERO COMEÇAR</p>
                                 </button>
                                 <div class="aviso">
