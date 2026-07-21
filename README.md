@@ -16,4 +16,4 @@ Relatório diário:
 
 16/07/2026: Reuniâo com a empresa para definir pontos a serem alterados e melhorados.
 
-21/07/2026: ajustes pedidos pela empresa e o desenvolvimento da responsividade em telas divergentes e 70% do modo noturno completo.
+20/07/2026: ajustes pedidos pela empresa e o desenvolvimento da responsividade em telas divergentes e 70% do modo noturno completo.
