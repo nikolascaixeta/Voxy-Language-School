@@ -29,6 +29,7 @@
   --asks: #080808;
   --pretoebranco: #000;
   --textoform: #1f1e1c;
+  --seta: #fff; 
 }
 
 body.dark-mode {
@@ -62,10 +63,28 @@ body.dark-mode {
   --asks: #f0f0f0;
   --pretoebranco: #fff;
   --textoform: #ffffffb7;
+  --seta: #fff; 
+}
+#seta{
+    position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--seta);          
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px var(--sombradodark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 9999;
 }
 
 #dark{
-  position: fixed;
   bottom: 24px;
   right: 24px;
   width: 56px;
@@ -80,7 +99,7 @@ body.dark-mode {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  z-index: 9999;
+ 
 }
 
 #dark:hover {
@@ -167,6 +186,7 @@ img {
 }
 
 .cabecalho {
+    background-color: var(--headerback);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -216,7 +236,7 @@ img {
     border-radius: 1rem;
     text-decoration: none;
     cursor: pointer;
-    margin-bottom: 1rem;
+   
     display: inline-block;
 }
 
@@ -518,7 +538,7 @@ textarea {
 }
 
 .backpreco {
-    background-color: var(--backassinar);
+    background-color: var(--headerback);
     padding: 5rem 1.5rem;
 }
 
@@ -608,6 +628,7 @@ textarea {
 }
 
 .tituloReal {
+    color: var(--seta);
     padding: 1rem 0;
     font-size: 6rem;
     word-break: break-word;
@@ -800,7 +821,7 @@ textarea {
 
 .txttransicao {
     font-size: 4rem;
-    color: black;
+    color: var(--seta);
     line-height: 1.2;
     text-align: center;
 }
@@ -916,7 +937,7 @@ summary {
 .bordasdt {
     border-bottom: #707070 0.0625rem solid;
     width: 100%;
-    min-width: 40rem;
+    min-width: 44rem;
 }
 
 .preco-section {
@@ -935,6 +956,7 @@ summary {
     height: auto;
     border-radius: 1.25rem;
     padding: 1.5rem 1rem;
+    box-shadow: 0rem 0.5rem 0.7rem var(--pretoebranco);
 }
 
 .planos h3 {
@@ -945,13 +967,13 @@ summary {
 #primeiroplano {
     text-align: center;
     background-color: rgb(239, 227, 241);
-    border: 0.0625rem solid #5e5b5b;
+    border: 0rem solid #5e5b5b;
 }
 
 #segundoplano {
     text-align: center;
     background-color: rgb(239, 227, 241);
-    border: 0.0625rem solid #5e5b5b;
+    border: 0rem solid #5e5b5b;
 }
 
 #txtplano {
@@ -982,6 +1004,10 @@ summary {
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
+}
+.tituloAssinar{
+    display: flex;
+    justify-content: center;
 }
 
 #ass {
