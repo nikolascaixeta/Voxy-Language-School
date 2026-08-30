@@ -30,6 +30,7 @@
   --pretoebranco: #000;
   --textoform: #1f1e1c;
   --seta: #fff; 
+  --bordaCardPilar: #979797;
 }
 
 body.dark-mode {
@@ -64,6 +65,51 @@ body.dark-mode {
   --pretoebranco: #fff;
   --textoform: #ffffffb7;
   --seta: #fff; 
+   --bordaCardPilar: #9E9E9E;
+}
+.fundoPadrao{
+    background-color: var(--backsobre);
+}
+#Metodologia{
+  margin: 10rem;
+      max-width: 75rem;
+    margin: 0 auto;
+
+}
+.txtpilar{
+    color: #8c8a86;
+}
+.tituloPilar{
+    color: var(--pretoebranco);
+}
+.cardPilar{
+    border-top: var(--bordaCardPilar) 0.0625rem solid;
+    border-bottom: var(--bordaCardPilar) 0.0625rem solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.pilaresMetodologia{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2rem;
+}
+
+.tituloMetodologia{
+    font-size: 3rem;
+    margin-top: 0.5rem;
+    color: var(--pretoebranco);
+   
+}
+.textoTopoMetodologia{
+    text-align: center;
+    color: var(--pretoebranco);
+}
+.topoMetodologia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem; 
 }
 #seta{
     position: fixed;
@@ -937,7 +983,8 @@ summary {
 .bordasdt {
     border-bottom: #707070 0.0625rem solid;
     width: 100%;
-    min-width: 44rem;
+   min-width: 48.625rem ;
+   max-width:  48.625rem ;
 }
 
 .preco-section {
