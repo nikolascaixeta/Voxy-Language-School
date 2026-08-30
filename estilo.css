@@ -67,6 +67,21 @@ body.dark-mode {
   --seta: #fff; 
    --bordaCardPilar: #9E9E9E;
 }
+
+.drop{
+    display: inline-block;
+    position: relative;
+}
+.dropItens{
+    display: none;
+    position: absolute;
+    background-color: var(--headerback);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop:hover .dropItens{
+    display: block;
+}
 .fundoPadrao{
     background-color: var(--backsobre);
 }
@@ -943,10 +958,14 @@ textarea {
 .listan {
     font-size: 4rem;
 }
-
+.pt2pg{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 0.5rem;
+}
 .perguntas {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin: 6rem auto;
     max-width: 75rem;
@@ -983,8 +1002,8 @@ summary {
 .bordasdt {
     border-bottom: #707070 0.0625rem solid;
     width: 100%;
-   min-width: 48.625rem ;
-   max-width:  48.625rem ;
+   min-width: 25rem ;
+   max-width:  25rem ;
 }
 
 .preco-section {
