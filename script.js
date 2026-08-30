@@ -10,3 +10,35 @@ toggleBtn.addEventListener('click', () => {
     toggleBtn.innerHTML = '&#127769'; 
   }
 });
+const swiper = new Swiper('.meu-slider', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    centeredSlides: false, 
+    loop: true,
+    autoHeight: false,
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 16
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 24
+        },
+        1100: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
+});
