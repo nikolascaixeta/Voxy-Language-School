@@ -16,7 +16,7 @@
     <link rel="icon" href="Img/favicom.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    
     <link rel="stylesheet" href="estilo.css">
     <script src="script.js" defer></script>
     <title>Voxy Language School</title>
@@ -34,7 +34,15 @@
 
             <nav>
                 <ul class="ul">
-                    <li class="navItem"><a class="a" href="#SobreAVoxy">Sobre</a></li>
+                    <li class="navItem drop">
+                        <a  href="#Sobre" class="a drop-toggle">Sobre</a>
+                        <div class="dropItens">
+                            <a class="a" href="#SobreAVoxy">Quem somos</a>
+                            <a class="a" href="#Caracteristicas">Características</a>
+                            <a class="a" href="#alem">Além das Aulas</a>
+                            <a class="a" href="#Diferenciais">Diferenciais</a>
+                        </div>
+                    </li>
                     <li class="navItem"><a class="a" href="#Metodologia">Metodologia</a></li>
                     <li class="navItem"><a class="a" href="#Investimento">Investimento</a></li>
                     <li class="navItem"><a class="a" href="#PreMatricula">Pré-matricula</a></li>
@@ -126,7 +134,7 @@
             </div>
         </div>
 
-        <div class="backalem">
+        <div class="backalem" id="alem">
 
             <div class="alem">
                 <p class="mini">Além Das Aulas</p>
@@ -279,7 +287,7 @@
                 <div class="pt2pg">
                     
                     <div class="bordasdt">
-                        <details class="detalhes CG">
+                        <details class="detalhes CG ">
                             <summary>Tem taxa de matrícula ou preciso comprar material à parte?</summary>
                             <p class="txt1 ps">Não. O valor do pacote já inclui tudo: não há taxa de matrícula nem necessidade de 
                                  comprar material adicional.</p>
