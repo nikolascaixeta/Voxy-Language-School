@@ -70,7 +70,12 @@ body.dark-mode {
 details[open] summary ~ * {
   animation: none;
 }
-
+.textodif1{
+    font-size: 20px;
+}
+.textodif2{
+    font-size: 50px;
+}
 .content {
   overflow: hidden;
 }
@@ -148,6 +153,11 @@ details[open] summary ~ * {
 }
 .txtpilar{
     color: #8c8a86;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
 }
 .tituloPilar{
     color: var(--pretoebranco);
@@ -174,6 +184,11 @@ details[open] summary ~ * {
 .textoTopoMetodologia{
     text-align: center;
     color: var(--pretoebranco);
+     font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
 }
 .topoMetodologia{
     display: flex;
@@ -357,7 +372,7 @@ img {
 }
 
 .botao:hover {
-    background-color: var(--hoverheadbotao);
+    background-color: var(--botaodoishover);
     transform: scale(1.05);
 }
 
@@ -812,15 +827,19 @@ textarea {
 }
 
 .block h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0;
 }
 
 .block p {
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     color: #8c8a86;
     margin: 0;
     line-height: 1.5;
+     font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .turmas {
@@ -918,7 +937,12 @@ textarea {
 }
 
 .txt1 {
-    color: var(--asks);    
+    color: var(--asks);
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;    
 }
 
 .transicao {
@@ -979,7 +1003,7 @@ textarea {
 
 .topdepoiment, .titulodepo {
     font-size: 3.5rem;
-    font-weight: 400;
+   
     color: var(--depoimentos);
     margin-top: 1rem;
 }
@@ -990,6 +1014,11 @@ textarea {
     color: var(--depoimentos);
     margin: 0 0 1rem 0;
     text-align: left;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
 }
 
 .aluno {
@@ -1050,7 +1079,7 @@ summary {
     margin-top: 0;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: #707070;
     opacity: 0;
     transform: translateY(10px);
