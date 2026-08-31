@@ -71,7 +71,6 @@ details[open] summary ~ * {
   animation: none;
 }
 
-/* Garante que o container esconda o transbordo durante a animação */
 .content {
   overflow: hidden;
 }
@@ -1048,11 +1047,37 @@ summary {
 }
 
 .ps {
-    margin-top: 1rem;
+    margin-top: 0;
     display: flex;
     flex-wrap: wrap;
     font-size: 1.2rem;
     color: #707070;
+    opacity: 0;
+    transform: translateY(10px);
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease, max-height 0.6s ease, margin-top 0.35s ease;
+}
+
+.detalhes[open] .ps {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 18rem;
+    margin-top: 1rem;
+    animation: respostaAparece 0.7s ease forwards;
+}
+
+@keyframes respostaAparece {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+        filter: blur(2px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
 }
 
 .bordasdt {
