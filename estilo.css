@@ -1003,7 +1003,7 @@ textarea {
 
 .topdepoiment, .titulodepo {
     font-size: 3.5rem;
-   
+     
     color: var(--depoimentos);
     margin-top: 1rem;
 }
@@ -1068,8 +1068,21 @@ summary {
     font-weight: 600;
     color: var(--depoimentos);
     cursor: pointer;
-    list-style: none; 
+    
 }
+ 
+ details::details-content {
+            opacity: 0;
+
+            transition: content-visibility 0.5s allow-discrete, opacity 0.5s;
+
+            
+        }
+
+        details[open]::details-content {
+            opacity: 1;
+            animation: fadeInDown 0.4s ease-out; 
+        }
 
 .perg {
     margin-bottom: 3rem;
@@ -1081,36 +1094,12 @@ summary {
     flex-wrap: wrap;
     font-size: 1.25rem;
     color: #707070;
-    opacity: 0;
-    transform: translateY(10px);
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity 0.5s ease, transform 0.5s ease, max-height 0.6s ease, margin-top 0.35s ease;
-}
-
-.detalhes[open] .ps {
-    opacity: 1;
-    transform: translateY(0);
-    max-height: 18rem;
-    margin-top: 1rem;
-    animation: respostaAparece 0.7s ease forwards;
-}
-
-@keyframes respostaAparece {
-    from {
-        opacity: 0;
-        transform: translateY(12px);
-        filter: blur(2px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-        filter: blur(0);
-    }
+    margin-top: 0.5rem;
+   
 }
 
 .bordasdt {
-    border-bottom: #707070 0.0625rem solid;
+   
     width: 100%;
    min-width: 25rem ;
    max-width:  25rem ;
