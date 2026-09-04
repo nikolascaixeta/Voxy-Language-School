@@ -1435,6 +1435,16 @@ summary {
     .transicao {
         background-attachment: scroll;
     }
+    .pilaresMetodologia{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+}
+    .pt2pg{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 0.5rem;
+}
     .inicio {
         display: flex;
         flex-direction: column;
@@ -1525,7 +1535,7 @@ summary {
         display: flex;
         flex-direction: column;
     }
-
+    
     .row {
         display: flex;
         flex-direction: column;
@@ -1702,11 +1712,20 @@ summary {
     .transicao {
         background-attachment: scroll;
     }
-    .bordasdt {
-    border-bottom: #707070 0.0625rem solid;
-    width: 100%;
-    min-width: 10rem;
-      }
+      .pilaresMetodologia{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+}
+    .pt2pg{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 0.5rem;
+}
+    .backdiferenciais{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
     .fundoInicio, 
     .transicao {
         background-attachment: scroll;
