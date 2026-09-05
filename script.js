@@ -45,6 +45,8 @@ const swiper = new Swiper('.meu-slider', {
 
 const btnMenu = document.getElementById(`burguer`);
 const menu = document.getElementById(`menu`);
+const dropToggle = document.querySelector(`.drop-toggle`);
+const drop = dropToggle.closest(`.drop`);
 
 btnMenu.addEventListener(`click`, () => {
     menu.classList.toggle(`ativo`);
@@ -54,4 +56,9 @@ document.addEventListener(`click`, (event) => {
     if (!menu.contains(event.target) && !btnMenu.contains(event.target)) {
         menu.classList.remove(`ativo`);
     }
+});
+
+dropToggle.addEventListener(`click`, (event) => {
+    event.preventDefault();
+    drop.classList.toggle(`fechado`);
 });

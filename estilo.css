@@ -127,6 +127,10 @@ details[open] summary ~ * {
     display: flex;
 }
 
+.drop.fechado .dropItens {
+    display: none;
+}
+
 
 
 .dropItens .a {
@@ -1808,7 +1812,7 @@ summary {
     }
       .pilaresMetodologia{
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     gap: 2rem;
 }
     .pt2pg{
@@ -1816,9 +1820,10 @@ summary {
     grid-template-columns: repeat(1, auto);
     gap: 0.5rem;
 }
-    .backdiferenciais{
-        margin-left: 2rem;
-        margin-right: 2rem;
+    .tituloAssinar{
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
     .fundoInicio, 
     .transicao {
