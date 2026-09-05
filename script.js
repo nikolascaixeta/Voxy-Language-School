@@ -43,4 +43,9 @@ const swiper = new Swiper('.meu-slider', {
     }
 });
 
-  
+const btnMenu = document.getElementById(`burguer`);
+const menu = document.getElementById(`menu`);
+
+btnMenu.addEventListener(`click`, () => {
+    menu.classList.toggle(`ativo`);
+});

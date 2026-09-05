@@ -1385,6 +1385,10 @@ summary {
     margin-bottom: 0;
 }
 
+#burguer{
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .cabecalho {
         flex-direction: column;
@@ -1702,7 +1706,89 @@ summary {
         margin-top: 0.5rem;
         margin-bottom: 0rem;
     }
+
+    #burguer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
+
+.linhaburguer{
+    display: block;
+    position: relative;
+    width: 1.5rem;
+    height: 0.125rem;
+    background-color: var(--pretoebranco);
+    transition: 0.3s;
+}
+
+.linhaburguer::before, .linhaburguer::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0.125rem;
+    background-color: var(--pretoebranco);
+    transition: 0.3s;
+}
+
+.linhaburguer::before {
+    top: -0.5rem;
+}
+
+.linhaburguer::after{
+    bottom: -0.5rem;
+}
+
+#menu{
+    display: none;
+    position: absolute;
+    top: 3rem;
+    right: 0.5rem;
+    width: 14rem;
+    background-color: var(--backsobre);
+    border: 1px solid var(--pretoebranco);
+    border-radius: 0.5rem;
+    z-index: 1000;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menu ul li{
+    width: 100%;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 0.75rem 1.2rem;
+    text-align: left;
+    font-size: 0.95rem;
+    color: var(--pretoebranco);
+    text-decoration: none;
+    transition: var(--headerhover) 0.2s;
+}
+
+#menu ul li a:hover{
+    color: var(--headerhover);
+}
+#menu.ativo{
+    display: block;
+}
+}
+
+
 
 @media screen and (max-width: 576px) {
     .grade {
@@ -2012,4 +2098,83 @@ summary {
         margin-bottom: 0rem;
     }
    
+       #burguer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.linhaburguer{
+    display: block;
+    position: relative;
+    width: 1.5rem;
+    height: 0.125rem;
+    background-color: var(--pretoebranco);
+    transition: 0.3s;
+}
+
+.linhaburguer::before, .linhaburguer::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0.125rem;
+    background-color: var(--pretoebranco);
+    transition: 0.3s;
+}
+
+.linhaburguer::before {
+    top: -0.5rem;
+}
+
+.linhaburguer::after{
+    bottom: -0.5rem;
+}
+
+#menu{
+    display: none;
+    position: absolute;
+    top: 3rem;
+    right: 0.5rem;
+    width: 14rem;
+    background-color: var(--backsobre);
+    border: 1px solid var(--pretoebranco);
+    border-radius: 0.5rem;
+    z-index: 1000;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menu ul li{
+    width: 100%;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 0.75rem 1.2rem;
+    text-align: left;
+    font-size: 0.95rem;
+    color: var(--pretoebranco);
+    text-decoration: none;
+    transition: var(--headerhover) 0.2s;
+}
+
+#menu ul li a:hover{
+    color: var(--headerhover);
+}
+#menu.ativo{
+    display: block;
+}
 }
