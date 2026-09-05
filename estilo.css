@@ -1716,6 +1716,7 @@ summary {
     background: none;
     border: none;
     cursor: pointer;
+    margin-left: 1rem;
 }
 
 .linhaburguer{
@@ -1755,6 +1756,7 @@ summary {
     border: 1px solid var(--pretoebranco);
     border-radius: 0.5rem;
     z-index: 1000;
+    margin: 5.5rem;
 }
 
 #menu ul{
@@ -1778,6 +1780,12 @@ summary {
     color: var(--pretoebranco);
     text-decoration: none;
     transition: var(--headerhover) 0.2s;
+}
+.navdetalhes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem 1.2rem;
 }
 
 #menu ul li a:hover{
@@ -2146,6 +2154,9 @@ summary {
     border: 1px solid var(--pretoebranco);
     border-radius: 0.5rem;
     z-index: 1000;
+    margin-top: 8rem;
+    margin-left: 12rem;
+
 }
 
 #menu ul{
@@ -2169,6 +2180,12 @@ summary {
     color: var(--pretoebranco);
     text-decoration: none;
     transition: var(--headerhover) 0.2s;
+}
+.navdetalhes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem 1.2rem;
 }
 
 #menu ul li a:hover{

@@ -49,3 +49,9 @@ const menu = document.getElementById(`menu`);
 btnMenu.addEventListener(`click`, () => {
     menu.classList.toggle(`ativo`);
 });
+
+document.addEventListener(`click`, (event) => {
+    if (!menu.contains(event.target) && !btnMenu.contains(event.target)) {
+        menu.classList.remove(`ativo`);
+    }
+});
